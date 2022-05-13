@@ -1,109 +1,138 @@
+@charset "UTF-8";
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: "Roboto", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-h6 {
-    padding-left: 10.5rem;
-    font-size: 1.5rem;
-    font-weight: bold;
+/*header*/
+header {
+  width: 100%;
+  z-index: -1;
+  position: relative;
+}
+header img {
+  width: 100%;
 }
 
-.card {
-    margin: 8px;
+header::before {
+  content: "The Adam's Store";
+  width: 30%;
+  font-family: "Zen Loop", cursive;
+  position: absolute;
+  left: 26%;
+  bottom: 56%;
+  color: white;
+  font-size: 5rem;
 }
 
+header::after {
+  content: "Đẳng cấp Thượng Lưu";
+  width: 50%;
+  font-family: "Zen Loop", cursive;
+  position: absolute;
+  left: 24%;
+  bottom: 38%;
+  color: white;
+  font-size: 4rem;
+}
+
+/* nav */
 nav {
-    background-color: #333333;
+  background-color: #333333;
 }
-
 nav a {
-    color: aliceblue;
+  color: aliceblue;
+  font-family: "Roboto", sans-serif;
+}
+nav a:hover {
+  color: #c8996f;
+  border-bottom: 1px solid #c8996f;
 }
 
-nav a:hover {
-    color: #c8996f;
-    border-bottom: 1px solid #c8996f;
+/*main*/
+h6 {
+  padding-left: 1rem;
+  font-size: 1.5rem;
+  font-weight: bold;
 }
 
 main {
-    padding-top: 25px;
+  padding-top: 25px;
 }
-
-.news-items {
-    flex-basis: 25%;
-    margin: 25px
+main .section-1 .card {
+  flex-basis: 23%;
+  margin: 5px 0;
 }
-
-.news-items img {
-    width: 100%;
+main .section-2 img {
+  width: 100%;
+  padding: 20px 0;
 }
-
-.news-items .title p {
-    font-weight: bold;
+main .section-3 .card {
+  flex-basis: 23%;
+  margin: 13px 0;
+}
+main .secsion-4 .news-items {
+  flex-basis: 25%;
+  margin: 25px;
+}
+main .secsion-4 .news-items img {
+  width: 100%;
+}
+main .secsion-4 .news-items .title p {
+  font-family: arial;
+  font-weight: bolder;
 }
 
 .section-5 {
-    border-top: 1px solid #cccccc;
+  border-top: 1px solid #cccccc;
 }
 
 .section-5 .form {
-    justify-content: space-between;
-    margin-top: 10px;
+  justify-content: space-between;
+  margin-top: 10px;
 }
 
 .section-5 form {
-    padding-right: 125px;
+  padding-right: 125px;
 }
 
 .section-5 h4 {
-    padding-left: 125px;
-    font-weight: bold;
+  padding-left: 125px;
+  font-weight: bold;
 }
 
+/* footer */
 footer {
-    background-color: #333333;
-    color: #fff;
+  background-color: #333333;
+  color: #fff;
+  padding-top: 5rem;
+  padding-left: 6rem;
 }
-
 footer h5 {
-    font-weight: bold;
+  font-weight: bold;
 }
-
-footer .left,
-.right {
-    flex-basis: 45%;
-    padding: 10px;
-    margin-bottom: 20px;
-}
-
 footer .contact a {
-    line-height: 44px;
-    text-decoration: none;
+  text-decoration: none;
+  display: block;
 }
-
-footer .contact a:hover {
-    color: #c89979;
-}
-
-footer .right .content_right,
-.content_left {
-    flex-basis: 40%;
-    padding: 10px;
-    margin-bottom: 20px;
-}
-
-footer .right .content_right .images {
-    width: 70%;
-}
-
-footer .right .content_right img {
-    width: 80%;
-    margin-bottom: -100px;
-}
-
 footer a {
-    color: #fff;
+  color: #fff;
+  line-height: 44px;
 }
+footer a:hover {
+  color: #c89979;
+  text-decoration: none;
+}
+footer .download .images {
+  width: 50%;
+}
+footer .download img {
+  width: 100%;
+}
+footer a:hover {
+  color: #c89979;
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=style.css.map */

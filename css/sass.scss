@@ -1,0 +1,152 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/*header*/
+
+header {
+    width: 100%;
+    z-index: -1;
+    position: relative;
+    img {
+        width: 100%;
+    }
+}
+
+header::before {
+    content: "The Adam's Store";
+    width: 30%;
+    font-family: 'Zen Loop', cursive;
+    position: absolute;
+    left: 26%;
+    bottom: 56%;
+    color: white;
+    font-size: 5rem;
+}
+
+header::after {
+    content: "Đẳng cấp Thượng Lưu";
+    width: 50%;
+    font-family: 'Zen Loop', cursive;
+    position: absolute;
+    left: 24%;
+    bottom: 38%;
+    color: white;
+    font-size: 4rem;
+    font-weight: 400;
+}
+
+
+/* nav */
+
+nav {
+    background-color: #333333;
+    a {
+        color: aliceblue;
+        font-family: "Roboto", sans-serif;
+    }
+    a:hover {
+        color: #c8996f;
+        border-bottom: 1px solid #c8996f;
+    }
+}
+
+
+/*main*/
+
+h6 {
+    padding-left: 1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+main {
+    padding-top: 25px;
+    .section-1 {
+        .card {
+            flex-basis: 23%;
+            margin: 5px 0;
+        }
+    }
+    .section-2 {
+        img {
+            width: 100%;
+            padding: 20px 0;
+        }
+    }
+    .section-3 {
+        .card {
+            flex-basis: 23%;
+            margin: 13px 0;
+        }
+    }
+    .secsion-4 {
+        .news-items {
+            flex-basis: 25%;
+            margin: 25px
+        }
+        .news-items img {
+            width: 100%;
+        }
+        .news-items .title p {
+            font-family: arial;
+            font-weight: bolder;
+        }
+    }
+}
+
+.section-5 {
+    border-top: 1px solid #cccccc;
+}
+
+.section-5 .form {
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.section-5 form {
+    padding-right: 125px;
+}
+
+.section-5 h4 {
+    padding-left: 125px;
+    font-weight: bold;
+}
+
+
+/* footer */
+
+footer {
+    background-color: #333333;
+    color: #fff;
+    padding-top: 5rem;
+    padding-left: 6rem;
+    h5 {
+        font-weight: bold;
+    }
+    .contact a {
+        text-decoration: none;
+        display: block;
+    }
+    a {
+        color: #fff;
+        line-height: 44px;
+    }
+    a:hover {
+        color: #c89979;
+        text-decoration: none;
+    }
+    .download .images {
+        width: 50%;
+    }
+    .download img {
+        width: 100%;
+    }
+    a:hover {
+        color: #c89979;
+        text-decoration: none;
+    }
+}
