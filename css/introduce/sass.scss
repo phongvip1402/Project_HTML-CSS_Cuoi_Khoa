@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Koulen&family=Poppins:wght@100&family=Roboto:ital,wght@1,100&family=Zen+Loop&display=swap");
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    position: relative;
+}
+
+header img {
+    width: 100%;
+}
+
+header::before {
+    content: "The Adam's Store";
+    font-family: cursive;
+    position: absolute;
+    left: 20%;
+    bottom: 56%;
+    color: white;
+    font-size: 4vw;
+}
+
+header::after {
+    content: "Đẳng cấp Thượng Lưu";
+    width: 50%;
+    font-family: cursive;
+    position: absolute;
+    left: 19%;
+    bottom: 38%;
+    color: white;
+    font-size: 4vw;
+    font-weight: 400;
+}
+
+
+/* nav */
+
+nav {
+    background-color: #333333;
+    a {
+        width: 100%;
+        color: aliceblue;
+        font-family: sans-serif;
+        font-size: 1vw;
+    }
+    a:hover {
+        color: #c8996f;
+        border-bottom: 1px solid #c8996f;
+    }
+}
+
+main {
+    padding-top: 10px;
+    section {
+        padding-top: 60px;
+    }
+    .section-1 {
+        margin: auto;
+        img {
+            width: 100%;
+            border: 0.5px solid lightgray;
+        }
+    }
+    .section-2 {
+        padding-bottom: 40px;
+        i {
+            font-size: 35px;
+        }
+        .item {
+            margin-left: 10px;
+            h6 {
+                font: size 20px;
+                font-weight: bold;
+            }
+        }
+    }
+    .section-3 {
+        text-align: center;
+        background-image: url('../../img/banner-introduce.jpg');
+        background-size: cover;
+        background-attachment: fixed;
+        min-height: 300px;
+        box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.5);
+        .d-flex {
+            padding-top: 5rem;
+            z-index: 1;
+            .item {
+                color: white;
+            }
+        }
+    }
+    .section-4 {
+        .container {
+            margin-right: auto;
+            margin-left: auto;
+            .item {
+                padding: 0 47px;
+                img {
+                    width: 100%;
+                    height: 15rem;
+                    border-radius: 60%;
+                }
+                h3 {
+                    text-align: center;
+                }
+            }
+        }
+    }
+    .section-5 {
+        border-top: 1px solid #cccccc;
+        .form {
+            justify-content: space-between;
+            margin-top: 10px;
+        }
+        form {
+            padding-right: 125px;
+        }
+        h4 {
+            padding-left: 125px;
+            font-weight: bold;
+        }
+    }
+}
+
+// footer
+footer {
+    background-color: #333333;
+    color: #fff;
+    padding-top: 5rem;
+    padding-left: 6rem;
+    h5 {
+        font-weight: bold;
+    }
+    .contact a {
+        text-decoration: none;
+        display: block;
+    }
+    a {
+        color: #fff;
+        line-height: 44px;
+    }
+    a:hover {
+        color: #c89979;
+        text-decoration: none;
+    }
+    .download .images {
+        width: 50%;
+    }
+    .download img {
+        width: 100%;
+    }
+    a:hover {
+        color: #c89979;
+        text-decoration: none;
+    }
+}

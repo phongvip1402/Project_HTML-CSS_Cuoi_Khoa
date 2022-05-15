@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Koulen&family=Poppins:wght@100&family=Roboto:ital,wght@1,100&family=Zen+Loop&display=swap");
 * {
     padding: 0;
     margin: 0;
@@ -9,7 +10,6 @@
 
 header {
     width: 100%;
-    z-index: -1;
     position: relative;
     img {
         width: 100%;
@@ -18,21 +18,21 @@ header {
 
 header::before {
     content: "The Adam's Store";
-    width: 30%;
-    font-family: 'Zen Loop', cursive;
+    width: 39vw;
+    font-family: cursive;
     position: absolute;
-    left: 26%;
+    left: 20%;
     bottom: 56%;
     color: white;
-    font-size: 5rem;
+    font-size: 4rem;
 }
 
 header::after {
     content: "Đẳng cấp Thượng Lưu";
     width: 50%;
-    font-family: 'Zen Loop', cursive;
+    font-family: cursive;
     position: absolute;
-    left: 24%;
+    left: 19%;
     bottom: 38%;
     color: white;
     font-size: 4rem;
@@ -96,24 +96,20 @@ main {
             font-weight: bolder;
         }
     }
-}
-
-.section-5 {
-    border-top: 1px solid #cccccc;
-}
-
-.section-5 .form {
-    justify-content: space-between;
-    margin-top: 10px;
-}
-
-.section-5 form {
-    padding-right: 125px;
-}
-
-.section-5 h4 {
-    padding-left: 125px;
-    font-weight: bold;
+    .section-5 {
+        border-top: 1px solid #cccccc;
+        .form {
+            justify-content: space-between;
+            margin-top: 10px;
+        }
+        form {
+            padding-right: 125px;
+        }
+        h4 {
+            padding-left: 125px;
+            font-weight: bold;
+        }
+    }
 }
 
 

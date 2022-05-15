@@ -14,6 +14,11 @@
     <!-- Tải trực tiếp -->
     <link rel="stylesheet" href="./Bootstrap/css/bootstrap.css">
     <script src="./Bootstrap/js/bootstrap.js"></script>
+    <!-- link chạy carousel -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+
+    <!-- link css -->
     <link rel="stylesheet" href="./css/style.css">
 
     <!-- cdn font-awesome -->
@@ -21,6 +26,8 @@
     <link rel="stylesheet" href="./fontawesome-free-6.1.1-web/css/all.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- link font-google -->
     <link href="https://fonts.googleapis.com/css2?family=Koulen&family=Poppins:wght@100&family=Roboto:ital,wght@1,100&family=Zen+Loop&display=swap" rel="stylesheet">
 </head>
 
@@ -35,7 +42,7 @@
                     <a class="nav-link active" aria-current="page" href="#">TRANG CHỦ</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">GIỚI THIỆU</a>
+                    <a class="nav-link" href="./src/introduce.html">GIỚI THIỆU</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">ĐỒNG HỒ NAM</a>
@@ -55,41 +62,131 @@
     <main>
         <section class="section-1 container">
             <h6>Sản phẩm bán chạy</h6>
-            <div class="cards">
-                <div class="d-flex flex-wrap justify-content-around text-center ">
-                    <div class="card ">
-                        <img src="./img/san_pham.jpg " class="card-img-top " alt="... ">
-                        <div class="card-body ">
-                            <h5 class="card-title ">Classio 4</h5>
-                            <p class="card-text ">500,000 đ</p>
-                            <a href="# " class="btn btn-primary ">Mua ngay</a>
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="cards">
+                            <div class="d-flex flex-wrap justify-content-around text-center ">
+                                <div class="card ">
+                                    <img src="./img/san_pham.jpg " class="card-img-top " alt="... ">
+                                    <div class="card-body ">
+                                        <h5 class="card-title ">Classio 4</h5>
+                                        <p class="card-text ">500,000 đ</p>
+                                        <a href="# " class="btn btn-primary ">Mua ngay</a>
+                                    </div>
+                                </div>
+                                <div class="card ">
+                                    <img src="./img/san_pham.jpg " class="card-img-top " alt=" ">
+                                    <div class="card-body ">
+                                        <h5 class="card-title ">Classio 5</h5>
+                                        <p class="card-text ">500,000 đ</p>
+                                        <a href="# " class="btn btn-primary ">Mua ngay</a>
+                                    </div>
+                                </div>
+                                <div class="card ">
+                                    <img src="./img/san_pham.jpg " class="card-img-top " alt=" ">
+                                    <div class="card-body ">
+                                        <h5 class="card-title ">Classio 6</h5>
+                                        <p class="card-text ">500,000 đ</p>
+                                        <a href="# " class="btn btn-primary ">Mua ngay</a>
+                                    </div>
+                                </div>
+                                <div class="card ">
+                                    <img src="./img/san_pham.jpg " class="card-img-top " alt=" ">
+                                    <div class="card-body ">
+                                        <h5 class="card-title ">Classio 7</h5>
+                                        <p class="card-text ">500,000 đ</p>
+                                        <a href="# " class="btn btn-primary ">Mua ngay</a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="card ">
-                        <img src="./img/san_pham.jpg " class="card-img-top " alt=" ">
-                        <div class="card-body ">
-                            <h5 class="card-title ">Classio 5</h5>
-                            <p class="card-text ">500,000 đ</p>
-                            <a href="# " class="btn btn-primary ">Mua ngay</a>
+                    <div class="carousel-item">
+                        <div class="cards">
+                            <div class="d-flex flex-wrap justify-content-around text-center ">
+                                <div class="card ">
+                                    <img src="./img/san_pham_2.jpg " class="card-img-top " alt="... ">
+                                    <div class="card-body ">
+                                        <h5 class="card-title ">Classio 4</h5>
+                                        <p class="card-text ">500,000 đ</p>
+                                        <a href="# " class="btn btn-primary ">Mua ngay</a>
+                                    </div>
+                                </div>
+                                <div class="card ">
+                                    <img src="./img/san_pham_2.jpg " class="card-img-top " alt=" ">
+                                    <div class="card-body ">
+                                        <h5 class="card-title ">Classio 5</h5>
+                                        <p class="card-text ">500,000 đ</p>
+                                        <a href="# " class="btn btn-primary ">Mua ngay</a>
+                                    </div>
+                                </div>
+                                <div class="card ">
+                                    <img src="./img/san_pham_2.jpg " class="card-img-top " alt=" ">
+                                    <div class="card-body ">
+                                        <h5 class="card-title ">Classio 6</h5>
+                                        <p class="card-text ">500,000 đ</p>
+                                        <a href="# " class="btn btn-primary ">Mua ngay</a>
+                                    </div>
+                                </div>
+                                <div class="card ">
+                                    <img src="./img/san_pham_2.jpg " class="card-img-top " alt=" ">
+                                    <div class="card-body ">
+                                        <h5 class="card-title ">Classio 7</h5>
+                                        <p class="card-text ">500,000 đ</p>
+                                        <a href="# " class="btn btn-primary ">Mua ngay</a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="card ">
-                        <img src="./img/san_pham.jpg " class="card-img-top " alt=" ">
-                        <div class="card-body ">
-                            <h5 class="card-title ">Classio 6</h5>
-                            <p class="card-text ">500,000 đ</p>
-                            <a href="# " class="btn btn-primary ">Mua ngay</a>
-                        </div>
-                    </div>
-                    <div class="card ">
-                        <img src="./img/san_pham.jpg " class="card-img-top " alt=" ">
-                        <div class="card-body ">
-                            <h5 class="card-title ">Classio 7</h5>
-                            <p class="card-text ">500,000 đ</p>
-                            <a href="# " class="btn btn-primary ">Mua ngay</a>
+                    <div class="carousel-item">
+                        <div class="cards">
+                            <div class="d-flex flex-wrap justify-content-around text-center ">
+                                <div class="card ">
+                                    <img src="./img/san_pham_3jpg.jpg " class="card-img-top " alt="... ">
+                                    <div class="card-body ">
+                                        <h5 class="card-title ">Classio 4</h5>
+                                        <p class="card-text ">500,000 đ</p>
+                                        <a href="# " class="btn btn-primary ">Mua ngay</a>
+                                    </div>
+                                </div>
+                                <div class="card ">
+                                    <img src="./img/san_pham_3jpg.jpg " class="card-img-top " alt=" ">
+                                    <div class="card-body ">
+                                        <h5 class="card-title ">Classio 5</h5>
+                                        <p class="card-text ">500,000 đ</p>
+                                        <a href="# " class="btn btn-primary ">Mua ngay</a>
+                                    </div>
+                                </div>
+                                <div class="card ">
+                                    <img src="./img/san_pham_3jpg.jpg " class="card-img-top " alt=" ">
+                                    <div class="card-body ">
+                                        <h5 class="card-title ">Classio 6</h5>
+                                        <p class="card-text ">500,000 đ</p>
+                                        <a href="# " class="btn btn-primary ">Mua ngay</a>
+                                    </div>
+                                </div>
+                                <div class="card ">
+                                    <img src="./img/san_pham_3jpg.jpg " class="card-img-top " alt=" ">
+                                    <div class="card-body ">
+                                        <h5 class="card-title ">Classio 7</h5>
+                                        <p class="card-text ">500,000 đ</p>
+                                        <a href="# " class="btn btn-primary ">Mua ngay</a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
             </div>
         </section>
         <section class="section-2 container-fluid p-0 ">
