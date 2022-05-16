@@ -1,0 +1,19 @@
+@media screen and (max-width:576px) {
+    .section-5 .form {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .section-5 .form form {
+        padding-left: 125px;
+    }
+}
+
+@media screen and (min-width:577px) and (max-width:768px) {
+    .section-5 .form {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .section-5 .form form {
+        padding-left: 125px;
+    }
+}

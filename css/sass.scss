@@ -18,13 +18,12 @@ header {
 
 header::before {
     content: "The Adam's Store";
-    width: 39vw;
     font-family: cursive;
     position: absolute;
     left: 20%;
     bottom: 56%;
     color: white;
-    font-size: 4rem;
+    font-size: 4vw;
 }
 
 header::after {
@@ -35,7 +34,7 @@ header::after {
     left: 19%;
     bottom: 38%;
     color: white;
-    font-size: 4rem;
+    font-size: 4vw;
     font-weight: 400;
 }
 
@@ -45,8 +44,10 @@ header::after {
 nav {
     background-color: #333333;
     a {
+        width: 100%;
         color: aliceblue;
-        font-family: "Roboto", sans-serif;
+        font-family: sans-serif;
+        font-size: 1vw;
     }
     a:hover {
         color: #c8996f;
@@ -67,7 +68,6 @@ main {
     padding-top: 25px;
     .section-1 {
         .card {
-            flex-basis: 23%;
             margin: 5px 0;
         }
     }
@@ -79,13 +79,14 @@ main {
     }
     .section-3 {
         .card {
-            flex-basis: 23%;
-            margin: 13px 0;
+            margin: 3vmin 3vmin;
+            width: 12rem;
         }
     }
     .secsion-4 {
+        margin-left: auto;
+        margin-right: auto;
         .news-items {
-            flex-basis: 25%;
             margin: 25px
         }
         .news-items img {
